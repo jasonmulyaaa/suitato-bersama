@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SelangMaster Pro - Professional Hose Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#2563eb',
+              secondary: '#1e40af',
+              accent: '#3b82f6'
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body class="bg-gray-50">
+    <custom-navbar></custom-navbar>
+    
+    <main>
+        <!-- Hero Section -->
+        <section class="relative bg-gradient-to-r from-primary to-secondary text-white py-20 px-4 md:px-8">
+            <div class="container mx-auto flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-4">Dari Taman Hingga Pabrik</h1>
+                    <p class="text-xl mb-8">Solusi Selang Andal untuk Industri dan Rumah Tangga Anda</p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="https://wa.me/6281234567890" class="bg-white text-primary font-bold py-3 px-6 rounded-lg hover:bg-gray-100 transition duration-300 flex items-center justify-center gap-2">
+                            <i data-feather="message-circle"></i>
+                            Kontak via WhatsApp
+                        </a>
+                        <a href="https://shopee.co.id/selangmaster" class="bg-accent text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300 flex items-center justify-center gap-2">
+                            <i data-feather="shopping-bag"></i>
+                            Kunjungi Toko Shopee
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="http://static.photos/industry/640x360/10" alt="Selang Products" class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </section>
+        <!-- About Us Section -->
+        <section class="py-16 px-4 md:px-8 bg-white">
+            <div class="container mx-auto flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2">
+                    <img src="http://static.photos/industry/640x360/15" alt="About SelangMaster" class="rounded-lg shadow-lg">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl font-bold mb-6 text-gray-800">Tentang PT. Suitanto Bersama</h2>
+                    <p class="text-lg text-gray-600 mb-4">
+                        Sejak berdiri pada tahun 1981, PT. Suitanto Bersama telah menjadi salah satu pelopor dalam produksi selang PVC berkualitas tinggi di Indonesia. Dengan pengalaman lebih dari empat dekade, kami terus berinovasi untuk menghadirkan produk yang kuat, fleksibel, dan tahan lama, memenuhi kebutuhan berbagai sektor industri.                    </p>
+                    <!-- <p class="text-lg text-gray-600 mb-6">
+                        With over a decade of experience, our team of experts is committed to delivering durable and reliable selang products that meet international quality standards.
+                    </p> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Features -->
+        <section class="py-16 px-4 md:px-8">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Kenapa Memilih Kami</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <div class="text-primary mb-4">
+                            <i data-feather="shield" class="w-10 h-10"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 text-gray-800">Kualitas Teruji Sejak 1981</h3>
+                        <p class="text-gray-600">Lebih dari 40 tahun pengalaman membuat kami paham bahwa ketahanan dan keandalan adalah segalanya. Setiap selang diproduksi dengan standar mutu tinggi dan melewati proses kontrol kualitas yang ketat.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <div class="text-primary mb-4">
+                            <i data-feather="award" class="w-10 h-10"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 text-gray-800">Material PVC Berkualitas Premiumd</h3>
+                        <p class="text-gray-600">Kami hanya menggunakan bahan baku pilihan untuk memastikan selang lebih kuat, lentur, dan tahan terhadap tekanan maupun suhu ekstrem.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <div class="text-primary mb-4">
+                            <i data-feather="clock" class="w-10 h-10"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 text-gray-800">Dukungan Teknis & Layanan Responsif</h3>
+                        <p class="text-gray-600">Tim kami siap membantu Anda memilih solusi terbaik dengan pelayanan cepat dan ramah — baik untuk proyek besar maupun pembelian individu.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Showcase -->
+        <section id="produk" class="py-16 bg-gray-100 px-4 md:px-8">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Produk Kami</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
+                    <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                        <img src="http://static.photos/industry/640x360/11" alt="Industrial Selang" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-2 text-gray-800">Gardening PVC House</h3>
+                            <p class="text-gray-600 mb-4">Heavy-duty hoses for industrial applications</p>
+                            <a href="https://shopee.co.id/selangmaster" class="text-primary font-medium hover:underline">View Details</a>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                        <img src="http://static.photos/industry/640x360/12" alt="Garden Selang" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-2 text-gray-800">Mining PVC House</h3>
+                            <p class="text-gray-600 mb-4">Flexible hoses for gardening and irrigation</p>
+                            <a href="https://shopee.co.id/selangmaster" class="text-primary font-medium hover:underline">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- Testimonials Section -->
+        <section id="testimoni" class="py-16 px-4 md:px-8 bg-white">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Suara Mereka, Bukti Nyata Komitmen Kami</h2>
+                <div class="testimonial-scroll">
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md min-w-[300px]">
+                    <div class="flex items-center mb-4">
+                            <img src="http://static.photos/people/200x200/1" alt="Customer" class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <h4 class="font-bold text-gray-800">John Doe</h4>
+                                <div class="flex text-yellow-400">
+                                    <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                    <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                    <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                    <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                    <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600">"The industrial selang has been working perfectly in our factory for over a year now with no issues. Highly durable!"</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md min-w-[300px]">
+                    <div class="flex items-center mb-4">
+                            <img src="http://static.photos/people/200x200/2" alt="Customer" class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <h4 class="font-bold text-gray-800">Sarah Johnson</h4>
+                                <div class="flex text-yellow-400">
+                                    <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                    <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                    <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                    <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                    <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600">"Excellent quality garden selang. Much better than what I've bought before and the price is reasonable."</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md min-w-[300px]">
+                    <div class="flex items-center mb-4">
+                            <img src="http://static.photos/people/200x200/3" alt="Customer" class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <h4 class="font-bold text-gray-800">Michael Chen</h4>
+                                <div class="flex text-yellow-400">
+                                    <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                    <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                    <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                    <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                    <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600">"Custom selang solution was exactly what we needed. Customer service was responsive and helpful throughout."</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md min-w-[300px]">
+                    <div class="flex items-center mb-4">
+                            <img src="http://static.photos/people/200x200/2" alt="Customer" class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <h4 class="font-bold text-gray-800">Sarah Johnson</h4>
+                                <div class="flex text-yellow-400">
+                                    <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                    <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                    <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                    <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                    <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600">"Excellent quality garden selang. Much better than what I've bought before and the price is reasonable."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16 bg-primary text-white px-4 md:px-8">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-6">Yuk, Pilih Selang Tangguh untuk Rumah atau Bisnis Anda!</h2>
+                <p class="text-xl mb-8 max-w-2xl mx-auto">Hubungi kami hari ini untuk saran dari profesional atau kunjungi toko Shopee kami untuk melihat produk lebih lengkap.</p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="https://wa.me/6281234567890" class="bg-white text-primary font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition duration-300 flex items-center justify-center gap-2">
+                        <i data-feather="message-circle"></i>
+                        WhatsApp
+                    </a>
+                    <a href="https://shopee.co.id/selangmaster" class="bg-secondary text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-900 transition duration-300 flex items-center justify-center gap-2">
+                        <i data-feather="shopping-bag"></i>
+                        Shopee
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
