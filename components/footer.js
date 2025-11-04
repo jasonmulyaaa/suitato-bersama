@@ -91,47 +91,18 @@ class CustomFooter extends HTMLElement {
           <div class="footer-section">
             <div class="footer-logo">
               <i data-feather="droplet"></i>
-              SelangMaster Pro
+              PT. Suitato Bersama
             </div>
-            <p>Providing high-quality hose solutions for industrial, agricultural, and home applications since 2010.</p>
+            <p>Solusi Selang Andal untuk Industri dan Rumah Tangga Anda.</p>
             <div class="social-links">
               <a href="#" aria-label="Facebook"><i data-feather="facebook"></i></a>
               <a href="#" aria-label="Instagram"><i data-feather="instagram"></i></a>
               <a href="https://wa.me/6281234567890" aria-label="WhatsApp"><i data-feather="message-circle"></i></a>
             </div>
           </div>
-          <div class="footer-links">
-            <div class="footer-section">
-              <h3>Products</h3>
-              <ul>
-                <li><a href="#">Industrial Selang</a></li>
-                <li><a href="#">Garden Selang</a></li>
-                <li><a href="#">Air Selang</a></li>
-                <li><a href="#">Custom Solutions</a></li>
-              </ul>
-            </div>
-            <div class="footer-section">
-              <h3>Company</h3>
-              <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Quality Standards</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Careers</a></li>
-              </ul>
-            </div>
-            <div class="footer-section">
-              <h3>Support</h3>
-              <ul>
-                <li><a href="https://wa.me/6281234567890">Contact Us</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Shipping Info</a></li>
-                <li><a href="https://shopee.co.id/selangmaster">Shopee Store</a></li>
-              </ul>
-            </div>
-          </div>
         </div>
         <div class="copyright">
-          &copy; ${new Date().getFullYear()} SelangMaster Pro. All rights reserved.
+          &copy; ${new Date().getFullYear()} PT. Suitato Bersama. All rights reserved.
         </div>
       </footer>
     `;
